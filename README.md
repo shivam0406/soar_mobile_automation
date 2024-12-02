@@ -48,13 +48,18 @@ This project demonstrates mobile automation testing using **WebdriverIO** with a
    git clone <repository-url>
    cd <repository-directory>
    ```
+2. WebDriver IO Installation:
+   ``` npm install --save-dev @wdio/cli```
 
-2. Install dependencies:
+3. Run WebdriverIO Configuration Wizard
+   ``` npx wdio config ```
+
+5. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Ensure Appium is running:
+6. Ensure Appium is running:
    ```bash
    appium
    ```
